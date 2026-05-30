@@ -116,7 +116,7 @@ genres, user segment health, and geographic content gaps at a glance.
 
 | File | Description |
 |---|---|
-| `netflix_analytics_dashboard.pbix` | Power BI dashboard file |
+| `netflix (tudummm) dashboard` | Power BI dashboard file |
 | `netflix_dashboard_data.csv` | Raw dataset used for analysis |
 | `netflix_dashboard.png` | Dashboard preview screenshot |
 
