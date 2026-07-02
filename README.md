@@ -1,140 +1,219 @@
-# 🎬 Netflix Analytics Dashboard — Power BI
+<h1 align="center">
+🎬 Netflix Analytics Dashboard
+</h1>
 
-A branded, single-page Power BI dashboard analyzing Netflix streaming 
-data across content genres, viewer demographics, watch behavior, 
-stream quality, and global content availability — designed to help 
-streaming platforms make data-driven decisions on content strategy 
-and user retention.
+<p align="center">
+Interactive <b>Power BI</b> Dashboard for analyzing Netflix streaming trends, viewer behavior, content performance, and global availability.
+</p>
 
----
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=28&duration=3500&pause=1000&color=E50914&center=true&vCenter=true&width=900&lines=Netflix+Analytics+Dashboard;Power+BI+Project;Streaming+Intelligence;Content+Performance+Analysis;Business+Insights+Through+Data" />
+</p>
 
-## 📊 Dashboard Preview
-
-![Netflix Dashboard](netflix_dashboard.png)
-
----
-
-## 🎯 Problem Statement
-
-Streaming platforms generate massive behavioral data but struggle to 
-translate it into clear content and retention strategy. This dashboard 
-consolidates Netflix viewing data into one interactive report — 
-enabling content teams to identify peak viewing days, top-performing 
-genres, user segment health, and geographic content gaps at a glance.
+<p align="center">
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/DAX-E50914?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Analytics-Data%20Visualization-black?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+<img src="https://img.shields.io/github/stars/abhi03985?style=for-the-badge"/>
+</p>
 
 ---
 
-## 📁 Dataset
+# 📊 Dashboard Preview
 
-- **Source:** Netflix streaming analytics dataset
-- **Domain:** Entertainment / Streaming Intelligence
-- **Genres covered:** Anime, Documentary, Mini-Series, Movie
-
----
-
-## 🔑 Key KPIs
-
-| Metric | Value |
-|---|---|
-| Average Rating | 7.36 |
-| Total Views | 85.30K |
-| Average Cost | $349.13 |
-| Avg Duration | 52.06 min |
+<p align="center">
+<img src="netflix_dashboard.png" width="100%">
+</p>
 
 ---
 
-## 📌 Dashboard Features
+# 🎯 Project Overview
 
-### Genre Filter
-- Interactive buttons (Anime, Documentary, Mini-Series, Movie)
-  filter all visuals simultaneously for genre-specific deep dives
+This interactive **Power BI Dashboard** transforms Netflix streaming data into actionable business insights by analyzing **viewer engagement, genre popularity, streaming quality, demographics, user segments, and country-wise content availability**.
 
-### Avg Watch Duration by Day
-- Bar chart ranking all 7 days by average watch time
-- Saturday and Friday show highest engagement — key insight 
-  for scheduling new content drops
-
-### Age Rating Distribution
-- Donut chart breaking down content by certification:
-  A (21%), U/A 7+ (20.5%), U/A 16+ (20%), U/A 13+ (19.5%), 
-  and others
-- Near-equal distribution indicates a broad, diverse content library
-
-### Stream Quality Breakdown
-- Donut chart showing quality tier split:
-  Dolby Vision (24.5%), 1080p (20%), 480p (19.5%), 720p (19%), 
-  4K HDR (17%)
-- High-quality streams (Dolby + 4K) represent ~42% of views
-
-### Content Availability by Country
-- Bar chart across 10 countries: India leads, followed by 
-  Spain, Germany, Brazil, South Korea, France, Mexico, UK, 
-  USA, Japan
-- Reveals geographic content concentration and expansion gaps
-
-### User Segments Distribution
-- Horizontal bar chart ranking 6 user types:
-  Re-Activated > Binge Watcher > Casual Viewer > New User > 
-  Churned > Power User
-- Re-Activated users being the largest segment signals strong 
-  win-back campaign effectiveness but also churn risk
+Designed with Netflix-inspired branding, the dashboard enables decision-makers to monitor KPIs, identify viewing trends, optimize content strategy, and improve user retention through data-driven insights.
 
 ---
 
-## 💡 Key Business Insights
+# ⚡ Dashboard Highlights
 
-- **Saturday and Friday are peak viewing days** — new content 
-  releases and promotional pushes should target Thursday evening 
-  to capture weekend audiences
-- **Re-Activated users are the largest segment** — the platform 
-  is successfully winning back churned users, but this also signals 
-  an underlying retention problem worth investigating
-- **Dolby Vision and 4K HDR make up 42% of streams** — premium 
-  quality content is in high demand; investing in high-definition 
-  originals is likely to pay off
-- **India leads content availability by a wide margin** — other 
-  large markets like USA and UK show lower availability, 
-  representing untapped growth opportunity
-- **Age rating distribution is near-uniform** — Netflix's library 
-  successfully caters to all age groups with no single demographic 
-  dominating
+| 📌 KPI | 📈 Value |
+|:------|---------:|
+| ⭐ Average Rating | **7.36** |
+| 👀 Total Views | **85.30K** |
+| 💰 Average Cost | **$349.13** |
+| ⏱ Avg Watch Duration | **52.06 Min** |
 
 ---
 
-## 🛠️ Tools Used
+# 🚀 Dashboard Features
 
-- **Power BI Desktop** — Dashboard design, DAX measures, 
-  custom Netflix branding, genre filter buttons
-- **DAX** — KPI card calculations, average metrics, 
-  segment aggregations
-- **Custom Theme** — Netflix red/black color scheme applied 
-  throughout for professional branded presentation
+🎭 **Genre Filters**
+- Anime
+- Documentary
+- Mini-Series
+- Movie
+
+📅 **Watch Duration Analysis**
+- Weekday engagement comparison
+- Peak streaming days identification
+
+👥 **User Segment Analysis**
+- Re-Activated Users
+- Binge Watchers
+- Casual Viewers
+- New Users
+- Churned Users
+- Power Users
+
+🌎 **Country-wise Content Distribution**
+- India
+- Spain
+- Germany
+- Brazil
+- South Korea
+- France
+- Mexico
+- UK
+- USA
+- Japan
+
+📺 **Streaming Quality Analysis**
+- Dolby Vision
+- 4K HDR
+- 1080p
+- 720p
+- 480p
+
+👶 **Age Rating Distribution**
+- A
+- U/A 7+
+- U/A 13+
+- U/A 16+
+- Others
 
 ---
 
-## 📂 Files in This Repository
+# 💡 Key Business Insights
 
-| File | Description |
-|---|---|
-| `netflix (tudummm) dashboard` | Power BI dashboard file |
-| `netflix_dashboard_data.csv` | Raw dataset used for analysis |
-| `netflix_dashboard.png` | Dashboard preview screenshot |
+✔️ Weekend (Friday & Saturday) records the highest streaming engagement.
 
----
+✔️ Re-Activated Users represent the largest customer segment, indicating effective win-back campaigns.
 
-## 🚀 How to Use
+✔️ Premium quality (Dolby Vision + 4K HDR) contributes nearly **42%** of all streams.
 
-1. Download `netflix_analytics_dashboard.pbix`
-2. Open in **Power BI Desktop** (free from Microsoft)
-3. Use the **Genre buttons** at the top to filter all visuals
-4. Hover over any chart for detailed tooltips
+✔️ India has the highest content availability among analyzed countries.
+
+✔️ Content ratings are evenly distributed across age groups, reflecting a balanced content portfolio.
 
 ---
 
-## 👤 Author
+# 🛠 Tech Stack
 
-**Abhinav Verma**  
-Aspiring Data & Business Analyst | Power BI · SQL · Excel  
-📧 abhinavverma03985@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/abhinav-verma-56147b40a) |
-[GitHub](https://github.com/abhi03985)
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=github"/>
+
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+
+<img src="https://img.shields.io/badge/DAX-E50914?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Data%20Analytics-black?style=for-the-badge"/>
+
+</p>
+
+---
+
+# 📂 Repository Structure
+
+```text
+📦 Netflix-Analytics-Dashboard
+│
+├── netflix_dashboard.pbix
+├── netflix_dashboard_data.csv
+├── netflix_dashboard.png
+└── README.md
+```
+
+---
+
+# 📈 Dashboard Workflow
+
+```text
+Raw Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Power Query
+      │
+      ▼
+Data Modeling
+      │
+      ▼
+DAX Measures
+      │
+      ▼
+Interactive Dashboard
+      │
+      ▼
+Business Insights
+```
+
+---
+
+# 🎥 Live Project Animation
+
+<p align="center">
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG1jN2RmYTR3dW9uMWJ6dWNodGhjMXI0dGgwMnhmMWk2Nmd5bDZvYiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="700">
+
+</p>
+
+---
+
+# 📊 Data Analytics Process
+
+<p align="center">
+
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="220">
+
+<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="220">
+
+<img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="220">
+
+</p>
+
+---
+
+# ⭐ If you like this project
+
+<p align="center">
+
+Give it a ⭐ on GitHub and feel free to fork it!
+
+</p>
+
+---
+
+<h3 align="center">
+
+👨‍💻 Abhinav Verma
+
+Power BI • SQL • Excel • Python • Data Analytics
+
+</h3>
+
+<p align="center">
+
+<a href="https://github.com/abhi03985">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/abhinav-verma-56147b40a">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</p>
